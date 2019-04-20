@@ -12,3 +12,4 @@ The plan is to:
 * investigate further improvements such as text expansion if memory constraints allow
 * post schematics, 3d printer files, code, and build instructions
 
+Get details of the build on my website [https://secreci.com/posts/20190414-chording-keyboard-part-1/](https://secreci.com/posts/20190414-chording-keyboard-part-1/)
