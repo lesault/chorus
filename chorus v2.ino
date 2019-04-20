@@ -323,7 +323,7 @@ void loop() {
                                         break;
                             case 24: pressRelease('2');
                                         break;
-                            case 25: pressRelease('£');
+                            case 25: pressRelease('£'); // this does not work
                                         break;
                             case 26: pressRelease(';');
                                         break;
@@ -337,37 +337,37 @@ void loop() {
                                         break;
                             case 31: pressRelease('5');
                                         break;
-                            case 36: Keyboard.press(KEY_RETURN);
+                            case 36: Keyboard.press(KEY_RETURN);//needs to use a function so the meta keys can be released
                                      Keyboard.release(KEY_RETURN);
                                      break;
-                            case 39: Keyboard.press(KEY_BACKSPACE);
+                            case 39: Keyboard.press(KEY_BACKSPACE);//needs to use a function so the meta keys can be released
                                      Keyboard.release(KEY_BACKSPACE);
                                      break;
-                            case 40: Keyboard.press(KEY_INSERT);
+                            case 40: Keyboard.press(KEY_INSERT);//needs to use a function so the meta keys can be released
                                      Keyboard.release(KEY_INSERT);
                                      break;
-                            case 42: Keyboard.press(KEY_TAB);
+                            case 42: Keyboard.press(KEY_TAB);//needs to use a function so the meta keys can be released
                                      Keyboard.release(KEY_TAB);
                                      break;
-                            case 44: Keyboard.press(KEY_DELETE);
+                            case 44: Keyboard.press(KEY_DELETE);//needs to use a function so the meta keys can be released
                                      Keyboard.release(KEY_DELETE);
                                      break;
-                            case 49: Keyboard.press(KEY_PAGE_UP);
+                            case 49: Keyboard.press(KEY_PAGE_UP);//needs to use a function so the meta keys can be released
                                      Keyboard.release(KEY_PAGE_UP);
                                      break;
-                            case 55: Keyboard.press(KEY_PAGE_DOWN);
+                            case 55: Keyboard.press(KEY_PAGE_DOWN);//needs to use a function so the meta keys can be released
                                       Keyboard.release(KEY_PAGE_DOWN);
                                       break;
-                            case 113: Keyboard.press(KEY_UP_ARROW);
+                            case 113: Keyboard.press(KEY_UP_ARROW);//needs to use a function so the meta keys can be released
                                       Keyboard.release(KEY_UP_ARROW);
                                       break;
-                            case 121: Keyboard.press(KEY_LEFT_ARROW);
+                            case 121: Keyboard.press(KEY_LEFT_ARROW);//needs to use a function so the meta keys can be released
                                       Keyboard.release(KEY_LEFT_ARROW);
                                       break;
-                            case 122: Keyboard.press(KEY_RIGHT_ARROW);
+                            case 122: Keyboard.press(KEY_RIGHT_ARROW);//needs to use a function so the meta keys can be released
                                       Keyboard.release(KEY_RIGHT_ARROW);
                                       break;
-                            case 124: Keyboard.press(KEY_DOWN_ARROW);
+                            case 124: Keyboard.press(KEY_DOWN_ARROW);//needs to use a function so the meta keys can be released
                                       Keyboard.release(KEY_DOWN_ARROW);
                                       break;
                             }
@@ -384,7 +384,7 @@ void loop() {
                                       break;
                               case 6: pressRelease('^');
                                       break;
-                              case 8: pressRelease('€');
+                              case 8: pressRelease('€'); //this does not work
                                       break;
                               case 13: pressRelease('~');
                                       break;
@@ -481,40 +481,40 @@ void loop() {
                                         break;
                                 case 31: pressRelease('p');
                                         break;
-                                case 36: Keyboard.press(KEY_RETURN);
+                                case 36: Keyboard.press(KEY_RETURN); //needs to use a function so the meta keys can be released 
                                          Keyboard.release(KEY_RETURN);
                                          break;
-                                case 39: Keyboard.press(KEY_BACKSPACE);
+                                case 39: Keyboard.press(KEY_BACKSPACE);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_BACKSPACE);
                                          break;
-                                case 40: Keyboard.press(KEY_INSERT);
+                                case 40: Keyboard.press(KEY_INSERT);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_INSERT);
                                         break;
-                                case 42: Keyboard.press(KEY_TAB);
+                                case 42: Keyboard.press(KEY_TAB);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_TAB);
                                         break;
-                                case 44: Keyboard.press(KEY_DELETE);
+                                case 44: Keyboard.press(KEY_DELETE);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_DELETE);
                                         break;
-                                case 49: Keyboard.press(KEY_HOME);
+                                case 49: Keyboard.press(KEY_HOME);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_HOME);
                                         break;
-                                case 55: Keyboard.press(KEY_END);
+                                case 55: Keyboard.press(KEY_END);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_END);
                                         break;
-                                case 56: Keyboard.press(KEY_ESC);
+                                case 56: Keyboard.press(KEY_ESC);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_ESC);
                                         break;
-                                case 113: Keyboard.press(KEY_UP_ARROW);
+                                case 113: Keyboard.press(KEY_UP_ARROW);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_UP_ARROW);
                                         break;
-                                case 121: Keyboard.press(KEY_LEFT_ARROW);
+                                case 121: Keyboard.press(KEY_LEFT_ARROW);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_LEFT_ARROW);
                                         break;
-                                case 122: Keyboard.press(KEY_RIGHT_ARROW);
+                                case 122: Keyboard.press(KEY_RIGHT_ARROW);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_RIGHT_ARROW);
                                         break;
-                                case 124: Keyboard.press(KEY_DOWN_ARROW);
+                                case 124: Keyboard.press(KEY_DOWN_ARROW);//needs to use a function so the meta keys can be released
                                          Keyboard.release(KEY_DOWN_ARROW);
                                         break;
                                 }
