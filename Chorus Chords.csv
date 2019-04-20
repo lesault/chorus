@@ -1,0 +1,66 @@
+﻿Transcribed from the Microwriter New User Guide found at https://www.microsoft.com/buxtoncollection/a/pdf/Microwriter%20New%20Users%20Guide.pdf,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,64,32,16,8,4,2,1,,,
+Key,Key in second mode,Key in third mode (not standard MW chords),Key in fourth mode,Thumb3,Thumb2,Thumb1,Index,Middle,Ring,Pinky,Dec,Toggle/ Toggle Lock,Comment
+u,6,_,,0,0,0,0,0,0,1,1,,underscore
+s,$,,,0,0,0,0,0,1,0,2,,dollar
+g,7,,,0,0,0,0,0,1,1,3,,
+o,0,,,0,0,0,0,1,0,0,4,,
+q,),>,},0,0,0,0,1,0,1,5,,right bracket
+n,"""",^,,0,0,0,0,1,1,0,6,,"double quotes, caret"
+b,8,,,0,0,0,0,1,1,1,7,,
+e,1,€,,0,0,0,1,0,0,0,8,,euro
+v,&,,,0,0,0,1,0,0,1,9,,ampersand
+t,+,,,0,0,0,1,0,1,0,10,,plus
+",",,,,0,0,0,1,0,1,1,11,,comma
+a,*,,,0,0,0,1,1,0,0,12,,asterisk
+-,-,~,,0,0,0,1,1,0,1,13,,"hyphen or minus, tilde"
+.,.,,,0,0,0,1,1,1,0,14,,fullstop
+m,9,,,0,0,0,1,1,1,1,15,,
+""" """,""" """,,,0,0,1,0,0,0,0,16,,space
+h,#,,,0,0,1,0,0,0,1,17,,hash (not standard Microwriter chord)
+k,/,\,,0,0,1,0,0,1,0,18,,"forward slash, backslash, pipe"
+j,=,,,0,0,1,0,0,1,1,19,,equals
+c,(,<,{,0,0,1,0,1,0,0,20,,left bracket
+z,%,,,0,0,1,0,1,0,1,21,,percentage
+y,?,,,0,0,1,0,1,1,0,22,,question mark
+x,!,,,0,0,1,0,1,1,1,23,,"exclamation (not same as standard Microwriter code, allows £ and # to have sensible chords)"
+i,2,|,,0,0,1,1,0,0,0,24,,pipe
+l,£,[,,0,0,1,1,0,0,1,25,,pound sign (not standard Microwriter chord)
+r,;,],,0,0,1,1,0,1,0,26,,semicolon
+w,:,,,0,0,1,1,0,1,1,27,,colon
+d,3,,,0,0,1,1,1,0,0,28,,
+',@,`,,0,0,1,1,1,0,1,29,,"apostrophe, at-sign, backtick"
+f,4,,,0,0,1,1,1,1,0,30,,
+p,5,,,0,0,1,1,1,1,1,31,,
+shift,,,,0,1,0,0,0,0,0,32,"0,1,2",shift capitalises next character. Pressing twice turns on caps lock. Pressing again turns off.
+fourth mode,,,,0,1,0,0,0,0,1,33,"0,1,2",fourth mode - to access ASCII Control Characters
+----break----,,,,,,,,,,,,,
+Return,Return,,,0,1,0,0,1,0,0,36,,
+----break----,,,,,,,,,,,,,
+second mode,,,,0,1,0,0,1,1,0,38,"0,1,2","press once to enter numbers/punctuation mode, twice to lock into that mode. Pressing again turns off."
+backspace,backspace,,,0,1,0,0,1,1,1,39,,backspace (not standard Microwriter chord)
+insert,,,,0,1,0,1,0,0,0,40,,insert mode
+----break----,,,,,,,,,,,,,
+Tab,Tab,,,0,1,0,1,0,1,0,42,,Tab
+----break----,,,,,,,,,,,,,
+delete,delete mode,,,0,1,0,1,1,0,0,44,,delete / delete mode (not standard Microwriter chord)
+----break----,,,,,,,,,,,,,
+third mode,,,,0,1,0,1,1,1,1,47,"0,1,2",third mode - to access other printable ASCII characters
+----break----,,,,,,,,,,,,,
+Home,PgUp,,,0,1,1,0,0,0,1,49,,"Home, PgUP (not standard Microwriter chord)"
+----break----,,,,,,,,,,,,,
+CTRL,,,,0,1,1,0,1,0,0,52,"0,1",CTRL (not standard Microwriter chord)
+----break----,,,,,,,,,,,,,
+end,PgDn,,,0,1,1,0,1,1,1,55,,"end, PgDn (not standard Microwriter chord)"
+ESC,,,,0,1,1,1,0,0,0,56,,ESC (not standard Microwriter chord)
+----break----,,,,,,,,,,,,,
+WIN,,,,0,1,1,1,0,1,1,59,"0,1",WIN (not standard Microwriter chord)
+ALT,,,,0,1,1,1,1,0,0,60,"0,1",ALT (not standard Mircrowriter chord)
+----break----,,,,,,,,,,,,,
+Up,Up,,,1,1,1,0,0,0,1,113,,up arrow (not standard Microwriter chord)
+----break----,,,,,,,,,,,,,
+Left,Left,,,1,1,1,1,0,0,1,121,,left arrow (not standard Microwriter chord)
+Right,Right,,,0,1,1,1,0,1,0,122,,right arrow (not standard Microwriter chord)
+----break----,,,,,,,,,,,,,
+Down,Down,,,1,1,1,1,1,0,0,124,,down arrow (not standard Microwriter chord)
