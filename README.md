@@ -13,3 +13,13 @@ The plan is to:
 * post schematics, 3d printer files, code, and build instructions
 
 Get details of the build on my website [https://secreci.com/posts/20190414-chording-keyboard-part-1/](https://secreci.com/posts/20190414-chording-keyboard-part-1/)
+
+**Parts list:**
+* PLA filament for case
+* Solid core hookup wire
+* Solder
+* 1 x Teensy 2.0 development board
+* 7 x mx-style keyboard switches
+* 6 x standard blank keycaps
+* 1 x larger  blank keycap (e.g. shift)
+* 1 x Mini-B USB cable
