@@ -29,3 +29,4 @@ Get details of the build on my website [https://secreci.com/posts/20190414-chord
 * LEDs to show which mode the keyboard is in. The 'all keys release all' chord helps cancel all pressed buttons.
 * A timer to automatically cancel all held buittons if nothing is pressed in say, 5 seconds.
 * A chord to allow insertion of common word parts -ing, -ation, etc.
+* The 3 thumb keys might be better rotated 90 degrees anticlockwise to make pressing 1 and 3 together easier.
