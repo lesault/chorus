@@ -23,3 +23,9 @@ Get details of the build on my website [https://secreci.com/posts/20190414-chord
 * 6 x standard blank keycaps
 * 1 x larger  blank keycap (e.g. shift)
 * 1 x Mini-B USB cable
+
+**Future development**
+* Quieter, lighter switches - this is quite noisy and tiring to use - would be better with rubber switches, I think.
+* LEDs to show which mode the keyboard is in. The 'all keys release all' chord helps cancel all pressed buttons.
+* A timer to automatically cancel all held buittons if nothing is pressed in say, 5 seconds.
+* A chord to allow insertion of common word parts -ing, -ation, etc.
