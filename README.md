@@ -23,11 +23,15 @@ Get details of the build on my website [https://secreci.com/posts/20190414-chord
 * 6 x standard blank keycaps
 * 1 x larger  blank keycap (e.g. shift)
 * 1 x Mini-B USB cable
+* 1 x 3mm LED
+* 1 x 220ohm resistor
+
 
 **Future development**
 * Quieter, lighter switches - this is quite noisy and tiring to use - would be better with rubber switches, I think.
-* LEDs to show which mode the keyboard is in. The 'all keys release all' chord helps cancel all pressed buttons.
+* ~~LEDs to show which mode the keyboard is in.~~ The 'all keys release all' chord helps cancel all pressed buttons.
   3mm LEDs arrived today (22/04/2019)- I'll test some code later. 
+  Code added. LED is illuminated when we're not in 'mode 1'
 * A timer to automatically cancel all held buttons if nothing is pressed in, say, 5 seconds.
 * A chord to allow insertion of common word parts -ing, -ation, etc.
 * The 3 thumb keys might be better rotated 90 degrees anticlockwise to make pressing 1 and 3 together easier.
