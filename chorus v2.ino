@@ -28,6 +28,15 @@ int mode2 = 0; // have we pressed second mode chord
 int mode3 = 0; // have we pressed third mode chord
 int mode4 = 0; // have we pressed fourth mode chord
 
+#define BUTTON1_PIN 1
+#define BUTTON2_PIN 2
+#define BUTTON3_PIN 3
+#define BUTTON4_PIN 4
+#define BUTTON5_PIN 5
+#define BUTTON6_PIN 6
+#define BUTTON7_PIN 7
+#define LED1_PIN 8 // PIN for LED - 11 is the built in LED for testing purposes. I have connected a 3mm blue LED in series with a 220ohm Resistor between pin 8 and GND
+
        Bounce debouncer1 = Bounce(); // Instantiate a Bounce object
        Bounce debouncer2 = Bounce(); // Instantiate a Bounce object
        Bounce debouncer3 = Bounce(); // Instantiate a Bounce object
@@ -64,14 +73,17 @@ void pressRelease(char keyToPress){
     if(mode2 == 1){//mode2 was on for a single character 
     Serial.write("Mode2 Released");
     mode2 = 0; //mode2 is released, so set it back to 0
+    digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
   }
     if(mode3 == 1){//mode3 was on for a single character 
     Serial.write("Mode3 Released");
     mode3 = 0; //mode3 is released, so set it back to 0
+    digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
   }
     if(mode4 == 1){//mode4 was on for a single character 
     Serial.write("Mode4 Released");
     mode4 = 0; //mode2 is released, so set it back to 0
+    digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
   }
 
 }
@@ -80,15 +92,6 @@ void pressRelease(char keyToPress){
 //End of functions
 
 void setup() {
-
-       #define BUTTON1_PIN 1
-       #define BUTTON2_PIN 2
-       #define BUTTON3_PIN 3
-       #define BUTTON4_PIN 4
-       #define BUTTON5_PIN 5
-       #define BUTTON6_PIN 6
-       #define BUTTON7_PIN 7
-
        debouncer1.attach(BUTTON1_PIN,INPUT_PULLUP); // Attach the debouncer to a pin with INPUT_PULLUP mode
        debouncer2.attach(BUTTON2_PIN,INPUT_PULLUP); // Attach the debouncer to a pin with INPUT_PULLUP mode
        debouncer3.attach(BUTTON3_PIN,INPUT_PULLUP); // Attach the debouncer to a pin with INPUT_PULLUP mode
@@ -104,6 +107,10 @@ void setup() {
        debouncer5.interval(25); // Use a debounce interval of 25 milliseconds
        debouncer6.interval(25); // Use a debounce interval of 25 milliseconds
        debouncer7.interval(25); // Use a debounce interval of 25 milliseconds
+
+       pinMode(LED1_PIN, OUTPUT); // initialize the digital pin as an output.
+       //digitalWrite(LED1_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+       //digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
 }
 
 void loop() {
@@ -155,6 +162,11 @@ void loop() {
                                         }else {
                                             mode4 = 0;
                                         }
+                          if (mode4 > 0) {
+                            digitalWrite(LED1_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+                          } else {
+                            digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
+                          }
                           Serial.write("Mode4 is ");
                           Serial.print(mode4);
                           Serial.println(); // and a newline
@@ -172,6 +184,11 @@ void loop() {
                                         }else {
                                             mode2 = 0;
                                         }
+                          if (mode2 > 0) {
+                            digitalWrite(LED1_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+                          } else {
+                            digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
+                          }
                           Serial.write("Mode2 is ");
                           Serial.print(mode2);
                           Serial.println(); // and a newline
@@ -189,6 +206,11 @@ void loop() {
                                         }else {
                                             mode3 = 0;
                                         }
+                          if (mode3 > 0) {
+                            digitalWrite(LED1_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+                          } else {
+                            digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
+                          }
                           Serial.write("Mode3 is ");
                           Serial.print(mode3);
                           Serial.println(); // and a newline
@@ -207,6 +229,7 @@ void loop() {
                           ctrl = 0;
                           alt = 0;
                           win = 0;
+                          digitalWrite(LED1_PIN, LOW);   // turn the LED off (LOW is the voltage level)
                           break;
                           
                         }
